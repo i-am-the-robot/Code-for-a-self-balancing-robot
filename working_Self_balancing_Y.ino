@@ -5,8 +5,8 @@ const int IN1 = 4;
 const int IN2 = 5;
 const int IN3 = 6;
 const int IN4 = 7;
-const int ENB = 10;
-const int ENA = 11;
+const int ENA = 10;
+const int ENB = 11;
 
 float desiredAngle = 0.00;
 float error = 0.00;
