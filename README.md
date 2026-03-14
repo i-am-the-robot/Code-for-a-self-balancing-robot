@@ -1,22 +1,24 @@
 # Self-Balancing Robot PID Control
 This is a project about developing a system that keeps a two-wheeled robot vertically stable using the PID control logic. Just note that every system has its own PID value that it responds to. You need to understand your system requirements and tune the PID parameters to meet them.
 
-Read the full write-up here: [What Building a Self-Balancing Robot Taught Me After Many Days of Tuning](https://www.linkedin.com/in/salisutitilola123)
 
-Want to see the system behaviour visualised in real-time? Check out the [Self Balancing Robot Digital Twin](https://github.com/i-am-the-robot/Self-Balancing-Robot-Digital-Twin) repository.
+
+Read the full write up here: [What Building a Self Balancing Robot Taught Me After Many Days of Tuning](https://www.linkedin.com/in/salisutitilola123)
+
+Want to see the system behaviour visualised in real time? Check out the [Self Balancing Robot Digital Twin](https://github.com/i-am-the-robot/Self-Balancing-Robot-Digital-Twin) repository.
 
 ---
 
 ## Hardware Required
 
-# Component        Quantity  
+| Component | Quantity |
 
- Arduino Uno          1  
- MPU6050 Sensor       1   
- L298N Motor Driver   1   
- DC TT Gear Motors    2   
- 3.7V Li ion Battery  2  
- Jumper Wires         As needed  
+| Arduino Board |         1 |
+| MPU6050 Sensor |        1 |
+| L298N Motor Driver|     1 |
+| DC TT Gear Motors |     2 |
+| 3.7V Li ion Battery |   2 |
+| Jumper Wires |  As needed |
 
 ---
 
