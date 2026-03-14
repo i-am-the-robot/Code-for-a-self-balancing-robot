@@ -2,7 +2,7 @@
 A two-wheeled robot is naturally unstable. Without active correction, it falls. This project implements a PID control system on an Arduino to keep the robot upright in real time by continuously reading the tilt angle from an MPU6050 sensor and adjusting motor speed accordingly. The results were validated using a digital twin built with serial data logged directly from the Arduino.
 
 
-Read the full write-up here: [What Building a Self-Balancing Robot Taught Me After Many Days of Tuning]([https://www.linkedin.com/in/salisutitilola123](https://www.linkedin.com/pulse/what-building-self-balancing-robot-taught-me-after-many-titilola-xlhef)
+Read the full write-up here: [What Building a Self-Balancing Robot Taught Me After Many Days of Tuning](https://www.linkedin.com/pulse/what-building-self-balancing-robot-taught-me-after-many-titilola-xlhef)
 
 Want to see the system behaviour visualised in real time? Check out the [Self-Balancing Robot Digital Twin](https://github.com/i-am-the-robot/Self-Balancing-Robot-Digital-Twin) repository.
 
