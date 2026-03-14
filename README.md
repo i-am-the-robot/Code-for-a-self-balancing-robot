@@ -81,11 +81,11 @@ You can use this output to monitor your system in real time or connect it to the
 
 ## Tuning Sequence
 
-This is the sequence that worked for me. Follow this order or you will waste a lot of time:
+This is the sequence that worked for me. I believe you will reduce a lot of tuning time by following this order.
 
 1. Start with Kp. Tune it until the bot responds fast enough to catch a fall without oscillating.
 2. Tune Kd next. This dampens the oscillation introduced by Kp and prevents overshoot. Tune until the system is smooth.
-3. Tune Ki last. Only add it if your system has a persistent drift that Kp and Kd cannot fix. Be careful — too much Ki will cause error windup and make the system unstable. Mine worked without it.
+3. Tune Ki last. Only add it if your system has a persistent drift that Kp and Kd cannot fix. Be careful. This is because too much Ki will cause error windup and make the system unstable. Mine worked without it.
 
 ---
 
@@ -125,12 +125,3 @@ It will not work on the first try. It can be frustrating. Just keep tuning.
 
 ---
 
-## Future Work
-
-- Kalman filter for smoother MPU6050 angle feedback
-- Cascaded PID with separate loops for angle and velocity
-- Remote setpoint interface for real-time monitoring
-
----
-
-*Every system has its own parameter values. You must understand your system to know what will work for it.*
