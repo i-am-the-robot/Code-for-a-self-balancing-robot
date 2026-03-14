@@ -32,13 +32,14 @@ Want to see the system behaviour visualised in real time? Check out the [Self Ba
 
 | L298N Pin | Arduino Pin |
 |---|---|
-| IN1 | Pin 7 |
-| IN2 | Pin 8 |
-| IN3 | Pin 9 |
-| IN4 | Pin 10 |
-| ENA | Pin 5 (PWM) |
-| ENB | Pin 6 (PWM) |
-| VCC | Battery positive |
+| IN1 | Pin 4 |
+| IN2 | Pin 5 |
+| IN3 | Pin 6 |
+| IN4 | Pin 7 |
+| ENA | Pin 10 (PWM) |
+| ENB | Pin 11 (PWM) |
+| VCC (12V) | Battery positive |
+| VS (5V) | Arduino Vin |
 | GND | Battery negative and Arduino GND |
 
 Note: Your pin assignments may be different depending on how you wired your board. Check your code and adjust accordingly.
