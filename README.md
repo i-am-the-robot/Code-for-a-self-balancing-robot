@@ -82,7 +82,7 @@ You can use this output to monitor your system in real time or connect it to the
 
 ## Tuning Sequence
 
-This is the sequence that worked for me. I believe you will reduce a lot of tuning time by following this order.
+This is the sequence that worked for me. I believe it will reduce the tuning time by following this order.
 
 1. Start with Kp. Tune it until the bot responds fast enough to catch a fall without oscillating.
 2. Tune Kd next. This dampens the oscillation introduced by Kp and prevents overshoot. Tune until the system is smooth.
