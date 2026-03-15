@@ -19,13 +19,19 @@ Want to see the system behaviour visualised in real time? Check out the [Self-Ba
 | 3.7V Li ion Battery | 2 |
 | Jumper Wires | As needed |
 
+![Arduino](Arduino_Uno.jpeg)  
+Arduino Uno
+
+![MPU](MPU6050.jpg)
+MPU6050 Sensor
+
 ---
 
 ## Building and Arranging the Robot. Getting the Centre of Gravity Right
 
 Before you wire anything or write a line of code, you need to think carefully about how you arrange the components on your robot. This is one of the most overlooked steps and it will save you a lot of tuning time later.
 
-The goal is to get the centre of gravity as close to the centre of the robot as possible, both front to back and left to right. Here is how to do that:
+The goal is to get the centre of gravity as close to the centre of the robot as possible, both front to back and left arto right. Here is how to do that:
 
 **Place heavy components in the middle.** Your battery is likely your heaviest component. Mount it as close to the central axis of the robot as you can, not at the top or bottom of the chassis. The higher the heavy components are placed, the harder the robot will be to balance.
 
