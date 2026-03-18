@@ -1,1 +1,16 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as follows."
+authors:
+  - family-names: Salisu 
+    given-names: Titilola
+title: "Self-balancing-robot-PID"
+version: 1.0.0
+date-released: 2024-03-18
+url: "https://github.com"
+repository-code: "https://github.com"
+keywords:
+  - robotics
+  - PID-control
+  - arduino
+  - self-balancing
 
