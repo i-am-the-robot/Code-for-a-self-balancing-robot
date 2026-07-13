@@ -1,8 +1,9 @@
 # Self-Balancing Robot PID Control
+[Click here to jump to the Video Demo](#video-demo)
 
-A two-wheeled robot is naturally unstable. Without active correction, it falls. This project implements a PID control system on an Arduino to keep the robot upright in real time by continuously reading the tilt angle from an MPU6050 sensor and adjusting motor speed accordingly. The results were validated using a digital twin built with serial data logged directly from the Arduino.
+A two-wheeled robot is naturally unstable. Without active correction, it falls. This project implements a PID control system on an Arduino to maintain the robot's upright position in real-time by continuously reading the tilt angle from an MPU6050 sensor and adjusting the motor speed accordingly. The results were validated using a digital twin built with serial data logged directly from the Arduino.
 
-Read the full write up here: [What Building a Self-Balancing Robot Taught Me After Many Days of Tuning](https://www.linkedin.com/pulse/what-building-self-balancing-robot-taught-me-after-many-titilola-xlhef)
+Read the full write-up here: [What Building a Self-Balancing Robot Taught Me After Many Days of Tuning](https://www.linkedin.com/pulse/what-building-self-balancing-robot-taught-me-after-many-titilola-xlhef)
 
 Want to see the system behaviour visualised in real time? Check out the [Self-Balancing Robot Digital Twin](https://github.com/i-am-the-robot/Self-Balancing-Robot-Digital-Twin) repository.
 
@@ -198,5 +199,13 @@ It will not work on the first try. It can be frustrating. Just keep tuning.
 - Wireless communication for remote monitoring and control
 
 ---
+## Demo Video
 
+
+https://github.com/user-attachments/assets/ca8871ed-a130-499d-b8c1-175eff3236ba
+
+
+
+
+---
 *Every system has its own parameter values. You must understand your system to know what will work for it.*
