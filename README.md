@@ -199,7 +199,7 @@ It will not work on the first try. It can be frustrating. Just keep tuning.
 - Wireless communication for remote monitoring and control
 
 ---
-## Demo Video
+## Video Demo
 
 
 https://github.com/user-attachments/assets/ca8871ed-a130-499d-b8c1-175eff3236ba
