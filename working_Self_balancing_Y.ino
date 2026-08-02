@@ -74,7 +74,7 @@ void loop() {
 
   move(-U, -U);
 
-  Serial.print("Angle: ");
+  Serial.print("Angle.: ");
   Serial.print(angle);
   Serial.print("\tError: ");
   Serial.print(error);
